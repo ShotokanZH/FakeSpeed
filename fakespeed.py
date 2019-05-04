@@ -18,8 +18,8 @@ payload = {
 
 print >>sys.stderr, "Fakespeed v1.0 by ShotokanZH"
 parser = argparse.ArgumentParser()
-parser.add_argument('up',help="Upload speed in bps",type=int)
-parser.add_argument('down',help="Download speed in bps",type=int)
+parser.add_argument('up',help="Upload speed in kbps",type=int)
+parser.add_argument('down',help="Download speed in kbps",type=int)
 parser.add_argument('ping',help="Ping RTT in ms",type=int)
 parser.add_argument('--server',help="ID of server used for testing (defaults to nearest)",metavar='SERVER_ID',type=int,default=0)
 
