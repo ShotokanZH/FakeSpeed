@@ -1,0 +1,2 @@
+# FakeSpeed
+Fake Speedtest
